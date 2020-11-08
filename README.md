@@ -31,4 +31,4 @@ node index.js
 
 Once you have the required variables, you can open up a Postman window and fill the requirements.
 
-[postman](images/postman.png)
+![postman](images/postman.png)
