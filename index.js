@@ -78,8 +78,13 @@ function printCredentials() {
         var secretAccessKey = AWS.config.credentials.secretAccessKey;
         var sessionToken = AWS.config.credentials.sessionToken;
 
+        console.log('Access key :');
         console.log(accessKeyId);
+
+        console.log('Secret access key : ');
         console.log(secretAccessKey);
+
+        console.log('Session token : ');
         console.log(sessionToken);
     });
 }
